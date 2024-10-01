@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+header {
+    background-image: url('florence.jpg');
+    max-width: device-width;
+/* 
+    the following line makes the background look cool when scrolling (a bit laggy in safari)
+    it was added to make the background width consistent between pages (it was inconsistent
+    due to the text (div) that only exists in the homepage) 
+    works fine in every other browser
+*/
+    background-attachment: fixed; 
+    padding-bottom: 100px;
+    padding-top: 50px;
+    color: white;
+}
+
+/* styles for navigation list on top of the website */
+nav ul {
+    list-style: none;
+    display: flex; /* places each button side by side */
+    justify-content: left;
+    align-items: center; /* centers the elements horizontally */
+    margin: 0;
+    height: 80px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 26px;
+    padding: 20px;
+}
+
+/* adds interactivity to the navigation buttons */
+nav ul li a:hover {
+    color: #6fdc83;
+}
+
+nav ul li img:hover {
+    opacity: 70%;
+}
+
+/* texts on header */
+.text {
+    text-align: left;
+    padding: 50px;
+}
+
+.text h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.text button {
+    background-color: #245532;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 18px;
+}
+
+.text button:hover {
+    background-color: #541756;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.card {
+    display: inline-block;
+    background-color: white;
+    width: 30%;
+    text-align: left;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card img:hover{
+    opacity: 70%;
+}
+.card h3 {
+    font-size: 20px;
+    text-align: left;
+}
+
+.card p {
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.card .info {
+    font-size: 10px;
+    color: #666;
+    display: flex;
+    justify-content: left;
+    gap: 5px;
+    font-
+}
+
+
+/* 
+    Position heart and comment buttons 
+    Note: the buttons doesn't scale properly on zoom
+*/
+.card button {
+    border: none;
+    background: none;
+    opacity: 80%;
+}
+
+.card button img {
+    width: 26px; /* icon size */
+    background-color: white;
+}
+
+.card button:hover {
+    opacity: 100%;
+}
+
+
+/* styles for each card page links */
+.card-image {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+/* improves visual for the image specifically */
+.card-image img {
+    border-radius: 20px;
+}
+
+.card-details {
+    text-align: left;
+    font-size: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 30px;
+    border: 5px solid black; /* Added solid border */
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+
+.card-details img {
+    width: 25px; 
+    height: 25px;
+}
+
+
+footer {
+    background-color: #245532;
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 20px;
+}
+
+/* below cleans up the hyperlinks */
+footer ul b {
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;  
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    margin-bottom: 50px; /* Note: using padding here affects the outline of the static map... */
+}
+
+
