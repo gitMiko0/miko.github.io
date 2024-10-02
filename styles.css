@@ -161,7 +161,7 @@ nav ul li img:hover {
     border-radius: 10px;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 10px;
 }
 
 .card-details img {
@@ -169,6 +169,24 @@ nav ul li img:hover {
     height: 25px;
 }
 
+
+.related-flex {
+    display: flex;
+    overflow: auto; /* horizontal scrolability */
+    align-self: center;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    list-style: none; /* removes bullets */
+    
+}
+
+.related-flex img {
+    border-radius: 20px;
+    width: 400px;
+    height: 250px;
+    padding: 5px;
+}
 
 footer {
     background-color: #245532;
@@ -188,11 +206,4 @@ footer ul b {
 footer ul {
     list-style: none;  
 }
-
-iframe {
-    display: block;
-    margin: auto;
-    margin-bottom: 50px; /* Note: using padding here affects the outline of the static map... */
-}
-
 
