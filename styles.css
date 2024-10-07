@@ -7,10 +7,10 @@ header {
     background-image: url('florence.jpg');
     max-width: device-width;
 /* 
-    the following line makes the background look cool when scrolling (a bit laggy in safari)
+    the following line makes the background static when scrolling (a bit laggy in safari)
     it was added to make the background width consistent between pages (it was inconsistent
     due to the text (div) that only exists in the homepage) 
-    works fine in every other browser
+    works fine in firefox and chrome
 */
     background-attachment: fixed; 
     padding-bottom: 100px;
