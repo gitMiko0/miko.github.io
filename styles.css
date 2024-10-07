@@ -119,7 +119,6 @@ nav ul li img:hover {
 
 /* 
     Position heart and comment buttons 
-    Note: the buttons doesn't scale properly on zoom
 */
 .card button {
     border: none;
